@@ -1,0 +1,9 @@
+.DS_Store
+*.sublime-workspace
+.shell_history
+.idea
+*.sublime-project
+*.iml
+target
+atlassian-ide-plugin.xml
+node_modules
