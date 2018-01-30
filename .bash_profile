@@ -32,3 +32,8 @@ alias config='/usr/bin/git --git-dir=$HOME/Workspace/whitefrog/dotfiles/ --work-
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
+
+# open manpages with preview
+pman() {
+    man -t ${@} | open -f -a /Applications/Preview.app/
+}
