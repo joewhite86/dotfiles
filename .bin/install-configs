@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # install oh-my-zsh
-curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # clone and set up config files
 git clone --bare git@github.com:joewhite86/dotfiles.git $HOME/.cfg
